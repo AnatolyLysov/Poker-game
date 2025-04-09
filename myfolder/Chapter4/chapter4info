@@ -1,1 +1,2 @@
-gcc myfolder/Chapter4/page53.c -o page53 && ./page53
+gcc myfolder/Chapter4/chapter4ex2.c -o chapetr4ex2
+git add myfolder/Chapter4/chapter4ex2.c
