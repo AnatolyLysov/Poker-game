@@ -1,0 +1,1 @@
+gcc myfolder/Chapter4/page53.c -o page53 && ./page53
