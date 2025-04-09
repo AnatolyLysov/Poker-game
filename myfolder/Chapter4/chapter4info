@@ -1,2 +1,3 @@
 gcc myfolder/Chapter4/chapter4ex2.c -o chapetr4ex2
 git add myfolder/Chapter4/chapter4ex2.c
+
