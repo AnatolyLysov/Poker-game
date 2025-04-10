@@ -4,9 +4,11 @@ git add myfolder/chapter4/chapter4ex2
 git commit
 git push
 ./myfolder/Chapter4/chapter4ex2
-gcc -g myfolder/Chapter4/chapter4ex2.c
-gcc -Wall myfolder/Chapter4/chapter4ex2.c
-gcc -g -Wall myfolder/Chapter4/chapter4ex2.c
+gcc -g myfolder/Chapter4/chapter4ex2.c -o chapter4ex2
+gcc -Wall myfolder/Chapter4/chapter4ex2.c -o chapter4ex2
+gcc -g -Wall myfolder/Chapter4/chapter4ex2.c -o chapter4ex2
+git checkout a.out
+
 
 
 
