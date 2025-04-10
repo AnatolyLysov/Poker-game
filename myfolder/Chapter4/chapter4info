@@ -3,6 +3,11 @@ gcc myfolder/Chapter4/chapter4ex2.c -o chapetr4ex2
 git add myfolder/chapter4/chapter4ex2
 git commit
 git push
+./myfolder/Chapter4/chapter4ex2
+gcc -g myfolder/Chapter4/chapter4ex2.c
+gcc -Wall myfolder/Chapter4/chapter4ex2.c
+gcc -g -Wall myfolder/Chapter4/chapter4ex2.c
+
 
 
 
