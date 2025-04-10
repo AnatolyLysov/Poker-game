@@ -8,6 +8,7 @@ gcc -g myfolder/Chapter4/chapter4ex2.c -o chapter4ex2
 gcc -Wall myfolder/Chapter4/chapter4ex2.c -o chapter4ex2
 gcc -g -Wall myfolder/Chapter4/chapter4ex2.c -o chapter4ex2
 git checkout a.out
+git add Poker-game
 
 
 
