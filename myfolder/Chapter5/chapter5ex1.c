@@ -3,6 +3,7 @@
 школьных принадлежностей, а также стоимость их покупки
 */
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     // Объявление и определение некоторых переменных
@@ -46,6 +47,13 @@ int main() {
     printf("Thank you for using the school supplies calculator!\n");
 
     printf("Сейчас месяц %s", "апрель\n");
+    char month[10];
+    printf("Введите название месяца: ");
+    scanf("%s", month);
+    printf("Вы ввели: %s\n", month);
+    printf("Сейчас месяц %s", month);
+    strcpy(month, "май");
+    printf("Сейчас месяц %s", month);
 
     return 0;
 }
