@@ -1,0 +1,4 @@
+ gcc myfolder/Chapter5/chapter5ex1.c -o myfolder/Chapter5/chapter5ex1
+ ./myfolder/Chapter5/chapter5ex1
+ git add .
+ 
