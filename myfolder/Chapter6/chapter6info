@@ -1,0 +1,5 @@
+git add myfolder/Chapter6/chapter6ex1.c
+gcc myfolder/Chapter6/chapter6ex1.c -o myfolder/Chapter6/chapter6ex1
+git add myfolder/Chapter6/chapter6ex1
+git add myfolder/Chapter6/chapter6ex1.c
+git commit -m "Chapter 6 exercise 1"
