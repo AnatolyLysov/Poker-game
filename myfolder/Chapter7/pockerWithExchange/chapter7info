@@ -1,0 +1,39 @@
+git clone https://github.com/AnatolyLysov/-.git
+gcc pockerWithExchange/AppendixBpoker.c -o pockerWithExchange/AppendixBpoker
+
+ You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> pockerWithExchange
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached pockerWithExchange
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+
+
+Вы добавили еще один репозиторий git внутри текущего репозитория.
+подсказка: Клоны внешнего репозитория не будут содержать содержимое
+подсказка: встроенного репозитория и не будут знать, как его получить.
+подсказка: Если вы хотели добавить подмодуль, используйте:
+подсказка:
+подсказка: git submodule add <url> pockerWithExchange
+подсказка:
+подсказка: Если вы добавили этот путь по ошибке, вы можете удалить его из
+подсказка: индекса с помощью:
+подсказка:
+подсказка: git rm --cached pockerWithExchange
+подсказка:
+подсказка: См. "git help submodule" для получения дополнительной информации.
+подсказка: Отключите это сообщение с помощью "git config set advice.addEmbeddedRepo false"
+
+
+error: the following file has staged content different from both the
+file and the HEAD:
+    pockerWithExchange
+(use -f to force removal)
