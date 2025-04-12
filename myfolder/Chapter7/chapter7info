@@ -27,13 +27,9 @@ hint: Disable this message with "git config set advice.addEmbeddedRepo false"
 подсказка: Если вы добавили этот путь по ошибке, вы можете удалить его из
 подсказка: индекса с помощью:
 подсказка:
-подсказка: git rm --cached pockerWithExchange
-подсказка:
+подсказка: git push
+
+
 подсказка: См. "git help submodule" для получения дополнительной информации.
 подсказка: Отключите это сообщение с помощью "git config set advice.addEmbeddedRepo false"
 
-
-error: the following file has staged content different from both the
-file and the HEAD:
-    pockerWithExchange
-(use -f to force removal)
