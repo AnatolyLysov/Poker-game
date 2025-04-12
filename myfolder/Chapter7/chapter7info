@@ -49,3 +49,5 @@ This will fetch and merge the changes from the remote branch into your current l
 ---------------------
 
 git pull origin master
+
+git submodule add https://github.com/AnatolyLysov/-.git pockerWithExchange
