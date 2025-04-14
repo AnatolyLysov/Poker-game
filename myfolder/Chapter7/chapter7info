@@ -51,3 +51,14 @@ This will fetch and merge the changes from the remote branch into your current l
 git pull origin master
 
 git submodule add https://github.com/AnatolyLysov/-.git pockerWithExchange
+
+The strcpy() function copies string2, including the ending null character, to the location
+ that is specified by string1. The strcpy() function operates on null-ended strings. 
+ The string arguments to the function should contain a null character (\0) that marks 
+ the end of the string. No length checking is performed. It is important to ensure that
+ the destination buffer is large enough to hold the copied string.
+
+ The strcpy() function copies data from one string into the memory of another string. 
+ The strcpy() function is defined in the <string. h> header file. Note: Make sure that 
+ the destination string has enough space for the data or it may start writing into memory 
+ that belongs to other variables.
