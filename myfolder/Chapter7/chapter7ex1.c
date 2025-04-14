@@ -13,12 +13,12 @@ int main() {
     int age;
     char childname[14] = "Тимофей";
 
-    printf("\n%s имеет %d детей", FAMILY, KIDS);
+    printf("\n%s имеют %d детей ", FAMILY, KIDS);
 
     age = 11;
     printf("Старший сын, %s, %d лет.\n", childname, age);
 
-    strcpy(childname, "Н");
+    strcpy(childname, "Ник");
 //    strcpy(childname, "Николай");
 
     age = 6;
