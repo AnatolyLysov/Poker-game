@@ -62,3 +62,10 @@ The strcpy() function copies string2, including the ending null character, to th
  The strcpy() function is defined in the <string. h> header file. Note: Make sure that 
  the destination string has enough space for the data or it may start writing into memory 
  that belongs to other variables.
+
+ gcc myfolder/Chapter7/chapter7ex1.c -o myfolder/Chapter7/chapter7ex1
+
+./myfolder/Chapter7/chapter7ex1
+
+
+
