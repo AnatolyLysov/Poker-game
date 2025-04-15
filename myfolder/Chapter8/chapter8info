@@ -1,0 +1,81 @@
+gcc -g myfolder/Chapter8/Chapter8ex1.c -o myfolder/Chapter8/Chapter8ex1
+gdb ./myfolder/Chapter8/Chapter8ex1
+ break 9
+ run
+
+--------------------------------------------------
+
+gdb ./myfolder/Chapter7/chapter7ex1
+```
+
+### Steps:
+st of classes of commands:
+
+aliases -- Aliases of other commands.
+breakpoints -- Making program stop at certain points.
+data -- Examining data.
+files -- Specifying and examining files.
+internals -- Maintenance commands.
+obscure -- Obscure features.
+running -- Running the program.
+stack -- Examining the stack.
+status -- Status inquiries.
+support -- Support facilities.
+tracepoints -- Tracing of program execution without stopping the program.
+user-defined -- User-defined commands.
+
+Type "help" followed by a class name for a list of commands in that class.
+Type "help all" for the list of all commands.
+Type "help" followed by command name for full documentation.
+Type "apropos word" to search for commands related to "word".
+Type "apropos -v word" for full documentation of commands related to "word".
+Command name abbreviations are allowed if unambiguous.
+
+(gdb) help all
+
+Command class: aliases
+
+ni -- Step one instruction, but proceed through subroutine calls.
+rc -- Continue program being debugged but run it in reverse.
+rni -- Step backward one instruction, but proceed through called subroutines.
+rsi -- Step backward exactly one instruction.
+si -- Step one instruction exactly.
+stepping -- Specify single-stepping behavior at a tracepoint.
+tp -- Set a tracepoint at specified location.
+tty -- Set terminal for future runs of program being debugged.
+where -- Print backtrace of all stack frames, or innermost COUNT frames.
+ws -- Specify single-stepping behavior at a tracepoint.
+
+Command class: breakpoints
+
+awatch -- Set a watchpoint for an expression.
+break -- Set breakpoint at specified location.
+break-range -- Set a breakpoint for an address range.
+catch -- Set catchpoints to catch events.
+catch assert -- Catch failed Ada assertions, when raised.
+catch catch -- Catch an exception, when caught.
+catch exception -- Catch Ada exceptions, when raised.
+--Type <RET> for more, q to quit, c to continue without paging--1. **Compile with Debugging Symbols**:
+   Ensure the program is compiled with the `-g` flag to include debugging information:
+   ```bash
+   gcc -g myfolder/Chapter7/chapter7ex1.c -o myfolder/Chapter7/chapter7ex1
+   ```
+
+2. **Start Debugging**:
+   Run the `gdb` command:
+   ```bash
+   gdb ./myfolder/Chapter7/chapter7ex1
+   ```
+
+3. **Common GDB Commands**:
+   - `run`: Start the program.
+   - `break <line-number>`: Set a breakpoint at a specific line.
+   - `next`: Execute the next line of code.
+   - `print <variable>`: Print the value of a variable.
+   - `quit`: Exit the debugger.
+
+Let me know if you need help with debugging!
+
+------------------------------------------
+# Debugging with GDB
+Li
