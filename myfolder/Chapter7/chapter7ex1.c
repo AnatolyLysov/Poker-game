@@ -11,21 +11,24 @@
 
 int main() {
     int age;
-    char childname[14] = "ТимофейТТТТ";
+    char childname[14];
+    printf("%s\n", childname);
 
-    printf("\n%s имеют %d детей\n ", FAMILY, KIDS);
+     strcpy(childname, "Тимофей");
 
-    age = 11;
-    printf("Старший сын, %s, %d лет.\n", childname, age);
+//     printf("\n%s имеют %d детей\n ", FAMILY, KIDS);
 
-    strcpy(childname, "Николай");
+//     age = 11;
+//     printf("Старший сын, %s, %d лет.\n", childname, age);
 
-    age = 6;
-    printf("Средний сын, %s, %d.\n", childname, age);
+//   /*   strcpy(childname, "Николай");
 
-    age = 3;
-    strcpy(childname, "Борис");
-    printf("Младший сын, %s, %d.\n", childname, age);
+//     age = 6;
+//     printf("Средний сын, %s, %d.\n", childname, age);
 
+//     age = 3;
+//     strcpy(childname, "Борис");
+//     printf("Младший сын, %s, %d.\n", childname, age);
+ 
     return 0;
 }

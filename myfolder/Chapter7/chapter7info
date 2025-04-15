@@ -67,5 +67,32 @@ The strcpy() function copies string2, including the ending null character, to th
 
 ./myfolder/Chapter7/chapter7ex1
 
+------------------------------------------------------------
+To debug a program in the terminal, you can use `gdb` (GNU Debugger). Here's the command:
 
+```bash
+gdb ./myfolder/Chapter7/chapter7ex1
+```
+
+### Steps:
+1. **Compile with Debugging Symbols**:
+   Ensure the program is compiled with the `-g` flag to include debugging information:
+   ```bash
+   gcc -g myfolder/Chapter7/chapter7ex1.c -o myfolder/Chapter7/chapter7ex1
+   ```
+
+2. **Start Debugging**:
+   Run the `gdb` command:
+   ```bash
+   gdb ./myfolder/Chapter7/chapter7ex1
+   ```
+
+3. **Common GDB Commands**:
+   - `run`: Start the program.
+   - `break <line-number>`: Set a breakpoint at a specific line.
+   - `next`: Execute the next line of code.
+   - `print <variable>`: Print the value of a variable.
+   - `quit`: Exit the debugger.
+
+Let me know if you need help with debugging!
 
