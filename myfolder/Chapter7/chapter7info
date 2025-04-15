@@ -96,3 +96,6 @@ gdb ./myfolder/Chapter7/chapter7ex1
 
 Let me know if you need help with debugging!
 
+gcc -g myfolder/Chapter7/chapter7ex1.c -o myfolder/Chapter7/chapter7ex1
+gdb ./myfolder/Chapter7/chapter7ex1
+
